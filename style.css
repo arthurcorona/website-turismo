@@ -4,14 +4,16 @@
 
 header{
     text-align: left;
-    padding: 12px;
+    padding: 5px;
     background-color: aqua;
-}
+    padding-left: 15px;
+}    
 .redsoc{
+    text-align: center;
     width: 30px;
     float: right;
     padding-right: 100px;
-    padding-bottom: 50px;
+    
 }
 
 #banner{
