@@ -7,7 +7,8 @@ header{
     padding: 5px;
     background-color: aqua;
     padding-left: 15px;
-}    
+}
+
 .redsoc{
     text-align: center;
     width: 30px;
@@ -20,9 +21,16 @@ header{
 
 
 }
-#excursoes{
+.boxtour{
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
 
-
+.legenda{
+    text-align: center;
+    padding: 10px 20px;
 }
 
 
