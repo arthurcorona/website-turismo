@@ -9,6 +9,11 @@ header{
     background-color: #48D1CC;
     padding: 10px;
 }
+.title{
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
 body{
     background-color: #E0FFFF;
 
