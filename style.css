@@ -15,7 +15,10 @@ header{
 .title{
     font-size: 30px;
     color: #1E90FF;
-    
+}
+.subtitle{
+    padding-left: 30px;
+
 }
 body{
     background-color: #E0FFFF;
