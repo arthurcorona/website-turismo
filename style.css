@@ -10,7 +10,7 @@
     padding: 5px;
 }
 header{
-    padding-left: 30px;
+   /* padding-left: 30px;*/
 }
 .title{
     font-size: 30px;
@@ -31,7 +31,12 @@ body{
     padding-right: 100px;
     
 }
-
+p{
+    padding-left: 25px;
+}
+.p{
+    padding-left: 25px;
+}
 .boxtour{
     display: inline-block;
     width: 350px;
@@ -42,11 +47,12 @@ body{
     margin-left: 30px;
 }
 .exc{
+    padding-left: 20px;
     font-size: 30px;
 
 }
 #pacotes{
-    padding-left: 30px;
+    padding-left: 10px;
 
 }
 
@@ -57,11 +63,15 @@ body{
 }
 
 #sobre{
+    font-size: 10px;
     padding: 30px;
+    display: block;
     background-color: #48D1CC;
+    
 }
 
 .nmr{
+    font-size: 10px;
     text-decoration: none;
 
 }
