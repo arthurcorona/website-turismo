@@ -3,13 +3,13 @@
     margin: 0px;
 }
 
-header{
+#banner{
     text-align: center;
     margin: 0px;
     background-color: #48D1DC;
-    padding: 10px;
+    padding: 5px;
 }
-.resumo{
+header{
     padding-left: 30px;
 }
 .title{
@@ -40,6 +40,10 @@ body{
     margin-bottom: 25px;
     margin-right: 5px;
     margin-left: 30px;
+}
+.exc{
+    font-size: 30px;
+
 }
 #pacotes{
     padding-left: 30px;
