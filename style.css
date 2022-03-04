@@ -10,7 +10,7 @@
     padding: 5px;
 }
 header{
-   /* padding-left: 30px;*/
+    padding-left: 20px;
 }
 .title{
     font-size: 30px;
@@ -37,6 +37,10 @@ p{
 .p{
     padding-left: 25px;
 }
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 .boxtour{
     display: inline-block;
     width: 350px;
@@ -44,7 +48,16 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     margin-right: 5px;
-    margin-left: 30px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.boxtour:hover {
+	background: rgba(0,0,0,.2);
+	border-radius: 4px;
+}
+.img:hover{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .exc{
     padding-left: 20px;
