@@ -2,10 +2,13 @@ html{
     scroll-behavior: smooth;
 }
 *{
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     margin: 0px;
 }
-
+a{
+    text-decoration: none;    
+}
 #banner{
     text-align: center;
     margin: 0px;
@@ -22,6 +25,9 @@ header{
 .subtitle{
     padding-left: 30px;
 
+}
+.neg{
+    text-decoration: underline;
 }
 body{
     background-color: #E0FFFF;
@@ -91,6 +97,14 @@ img{
     font-size: 10px;
     text-decoration: none;
 
+}
+#leka:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
+}
+#dalva:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
 }
 
 
