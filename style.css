@@ -1,44 +1,45 @@
 html{
     scroll-behavior: smooth;
 }
+
 *{
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     margin: 0px;
 }
+
 a{
     text-decoration: none;    
 }
+
 #banner{
     text-align: center;
     margin: 0px;
     background-color: #48D1DC;
     padding: 5px;
 }
+
 header{
     padding-left: 20px;
 }
+
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: #E0FFFF;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
   }
   
-  /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color:rgba(35, 90, 112, 0.2);
   }
   
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -48,7 +49,6 @@ header{
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -56,12 +56,13 @@ header{
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+  .dropdown-content a:hover{
+      background-color: #ddd
+    }
 
+  .show {
+      display:block;
+    }
 
   .title{
     font-size: 30px;
@@ -71,30 +72,36 @@ header{
     padding-left: 30px;
 
 }
+
 .neg{
     text-decoration: underline;
 }
+
 body{
     background-color: #E0FFFF;
 
 }
+
 .redsoc{
     text-align: center;
     width: 30px;
     float: right;
     padding-right: 100px;
-    
 }
+
 p{
     padding-left: 25px;
 }
+
 .p{
     padding-left: 25px;
 }
+
 img{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .boxtour{
     display: inline-block;
     width: 350px;
@@ -105,20 +112,24 @@ img{
     margin-left: 100px;
     border-radius: 15px;
 }
+
 .boxtour:hover {
 	background: rgba(0,0,0,.2);
 	border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
 .img:hover{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .exc{
     padding-left: 20px;
     font-size: 30px;
 
 }
+
 #pacotes{
     padding-left: 10px;
 
@@ -143,10 +154,12 @@ img{
     text-decoration: none;
 
 }
+
 #leka:hover{
     transform: scale(1.0)translateY(2px);
     transition: all 0.5s;
 }
+
 #dalva:hover{
     transform: scale(1.0)translateY(2px);
     transition: all 0.5s;
