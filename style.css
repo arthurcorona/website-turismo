@@ -18,6 +18,17 @@ a{
 header{
     padding-left: 20px;
 }
+#menu{
+    display: inline-block;
+    cursor: pointer;
+}
+.ctt, .excu{
+    width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 .title{
     font-size: 30px;
     color: #1E90FF;

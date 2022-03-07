@@ -7,3 +7,7 @@ $('.nav a[href^="#"]').on('click', function(e) {
 		scrollTop: targetOffset - 100
 	}, 500);
 });
+
+function myFunction(x) {
+	x.classList.toggle("change");
+  }
