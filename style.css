@@ -77,6 +77,10 @@ header{
     text-decoration: underline;
 }
 
+h3{
+    padding-left: 30px;
+}
+
 body{
     background-color: #E0FFFF;
 
@@ -149,7 +153,18 @@ img{
     
 }
 
+#mail{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#mail:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
+}
+
 .nmr{
+    color: rgb(20, 0, 109);
     font-size: 10px;
     text-decoration: none;
 
@@ -165,7 +180,9 @@ img{
     transition: all 0.5s;
 }
 
-
+.email{
+    color: rgb(38, 12, 153);
+}
 
 
 
