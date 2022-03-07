@@ -12,13 +12,18 @@
         <div id="banner">
            <h2>Dalva Turismo</h2>
     <!--       <a href="https://wa.me/5527996037177"> <img class ="redsoc" src="./assets/wppico.png"></a> -->
-            <div id="menu" onclick="myFunction(this)">
-                <div class="excu"></div>
-                <div class="ctt"></div> 
-
-            </div>
         </div>
 
+        <!--menu-->
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="./assets/menu.png" width="20px" height="20px"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#excu">Excursões</a>
+              <a href="#sobre">Contato</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        
 
     <!--banner-->
         <div id="banner">
@@ -36,8 +41,10 @@
             
         </header> 
         <br><br>  
+
+
         <!--Viagens-->
-        <h2 class="subtitle">Excursões</h2>
+        <h2 id="excu" class="subtitle">Excursões</h2>
         <br><br>
         
         <a href="#sp">
@@ -88,7 +95,6 @@
             <!--SP-->
             <h2 id ="sp" class="exc">São Paulo - Comercial</h2>
             <br>
-       
                 <p>* Saída todos os domingos com volta a quarta (pernoite)</p>
                 <p>* Saída todos os domingos com volta na terça (bate volta)</p> </p>
                 <br>
