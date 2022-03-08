@@ -158,7 +158,7 @@ img{
     text-decoration: none;
 }
 
-#mail:hover{
+.mail:hover{
     transform: scale(1.0)translateY(2px);
     transition: all 0.5s;
 }
