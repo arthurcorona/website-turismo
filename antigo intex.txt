@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -112,7 +116,7 @@
             </p><br>
             <p>* No domingo, após o café da manhã, seguiremos para Trindade, com visita a igreja do Divino Pai Eterno. Após o almoço (em Trindade), iremos para tão esperada cidade
                 de Caldas Novas, onde nos hospedaremos no Hotel diRoma Exclusive, com parques e piscinas de águas quentes, com ondas e hidromassagens, toboáguas,
-                saúnas e muito mais! Na segunda e terça ficaremos livres para curtir as maravilhas do hotel.
+                saúnas e muito mais! Na segunda e terã ficaremos livres para curtir as maravilhas do hotel.
             </p><br>
             <p> * Na quarta-feira (08/06/2022), após o café, sairemos para um pequeno tour pela Cidade de Caldas Novas, com retorno ao hotel para o almoço. Após o almoço, iniciaremos 
                 nossa viagem de retorno para nossos lares, prevista para a manhã de quinta-feira (09/06/22)</p>
@@ -214,3 +218,246 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+CSS
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;    
+}
+
+#banner{
+    text-align: center;
+    margin: 0px;
+    background-color: #48D1DC;
+    padding: 5px;
+}
+
+header{
+    padding-left: 20px;
+}
+
+.dropbtn {
+    background-color: #E0FFFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:rgba(35, 90, 112, 0.2);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{
+      background-color: #ddd
+    }
+
+  .show {
+      display:block;
+    }
+
+  .title{
+    font-size: 30px;
+    color: #1E90FF;
+}
+.subtitle{
+    padding-left: 30px;
+
+}
+
+.neg{
+    text-decoration: none;
+}
+
+h3{
+    padding-left: 30px;
+}
+
+body{
+    background-color: #E0FFFF;
+
+}
+
+.redsoc{
+    text-align: center;
+    width: 30px;
+    float: right;
+    padding-right: 100px;
+}
+
+p{
+    padding-left: 25px;
+}
+
+.p{
+    padding-left: 25px;
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.boxtour{
+    display: inline-block;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.boxtour:hover {
+	background: rgba(0,0,0,.2);
+	border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.img:hover{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.exc{
+    padding-left: 20px;
+    font-size: 30px;
+
+}
+
+#pacotes{
+    padding-left: 10px;
+
+}
+
+.legenda{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#sobre{
+    font-size: 10px;
+    padding: 30px;
+    background-color: #48D1CC;
+    
+}
+
+#mail{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mail:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
+}
+
+.nmr{
+    color: rgb(20, 0, 109);
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+#leka:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
+}
+
+#dalva:hover{
+    transform: scale(1.0)translateY(2px);
+    transition: all 0.5s;
+}
+
+.email{
+    color: rgb(38, 12, 153);
+}
+
+@media screen and (max-width: 500px){
+
+    #banner{
+        
+    }
+
+    .boxtour{
+        display: inline-block;
+        width: 250px;
+        background-color: white;
+        box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 12px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 8px;
+        margin-right: 5px;
+        margin-left: 30px;
+        border-radius: 15px;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+script
+
+
+
+function myFunction() {
+	document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+	if (!event.target.matches('.dropbtn')) {
+	  var dropdowns = document.getElementsByClassName("dropdown-content");
+	  var i;
+	  for (i = 0; i < dropdowns.length; i++) {
+		var openDropdown = dropdowns[i];
+		if (openDropdown.classList.contains('show')) {
+		  openDropdown.classList.remove('show');
+		}
+	  }
+	}
+  }
