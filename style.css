@@ -10,6 +10,10 @@
     margin-bottom: 10px;
 }
 
+#menubar{
+    float: left;
+}
+
 #sobre{
     background-color: gray;
 }
@@ -17,10 +21,11 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+.slideshow{
+  max-width: 400px;
   position: relative;
   margin: auto;
+  border-radius: 12px;
 }
 
 /* Hide the images by default */
