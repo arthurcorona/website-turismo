@@ -13,10 +13,22 @@ body{
   height: 80px;
   background-color: #fcae11;
   text-decoration: none;
-  display: block;
+  display: flex;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
+.logo-menu {
+  margin-right: 50%;
+}
+
+.link-menu{
+  margin-top: 30px;
+  margin-right: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
 
 .points {
   margin-top: 25px;
