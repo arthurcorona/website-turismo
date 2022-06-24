@@ -1,3 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// IMAGES SLIDE
+
 let slideIndex = 1;
 showSlides(slideIndex);
 

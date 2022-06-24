@@ -9,12 +9,49 @@ body{
 
 }
 
-#banner{
-    background-color: #fcae11;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10px;
+#menu {
+  height: 80px;
+  background-color: #fcae11;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
 }
+
+
+.points {
+  margin-top: 25px;
+  margin-right: 30px;
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;  
+}
+
+
+/* #menu{
+  background-color: #fcae11;
+  height: 80px;
+  width: 100%;
+  font-size: 18px;
+  margin-right: 30px;
+  display: block;
+  color: black;
+  text-decoration: none;  
+  }
+ 
+  .logo {
+    cursor: pointer;
+    box-sizing: border-box;
+    
+ }
+
+.linkId {
+  font-size: 16px;
+  text-align: center;
+  padding: 33px;
+  cursor: pointer;
+  display: inline;
+} */
 
 /* Slideshow container */
 .slideshow{
@@ -53,7 +90,7 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #770493;
 }
 
 /* Caption text */
@@ -98,7 +135,7 @@ body{
   animation-duration: 1.5s;
 }
 
-#sobre{
+#contato{
   background-color: #717171;
   color: #000000;
 }
