@@ -14,8 +14,8 @@ body{
   background-color: #fcae11;
   text-decoration: none;
   display: flex;
-  margin-bottom: 10px;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .logo-menu {
@@ -24,27 +24,28 @@ body{
 
 .link-menu{
   margin-top: 30px;
-  margin-right: 25px;
+  margin-right: 5%;
   font-size: 20px;
   text-decoration: none;
   color: white;
+  display: ;
 }
 
-.points {
-  margin-top: 25px;
-  margin-right: 30px;
-  padding: 5px;
+header {
   font-size: 20px;
-  color: black;
-  text-decoration: none;  
+  color: white;
+}
+
+.subtitle {
+  font-size: 30px;
 }
 
 /* Slideshow container */
 .slideshow{
   max-width: 750px;
   position: relative;
-  margin-left: 70px;
-  border-radius: 12px;
+  margin-left: 2%;
+  box-shadow: 10px 10px;
 }
 
 /* Hide the images by default */
@@ -113,6 +114,11 @@ body{
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+#buttons-slide {
+  margin-left: 19%;
+  margin-bottom: 40px;
 }
 
 /* Fading animation */
