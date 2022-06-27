@@ -16,10 +16,12 @@ body{
   display: flex;
   font-size: 20px;
   margin-bottom: 50px;
+  position: ;
 }
 
 .logo-menu {
   margin-right: 50%;
+  display: flex;
 }
 
 .link-menu{
@@ -28,7 +30,8 @@ body{
   font-size: 20px;
   text-decoration: none;
   color: white;
-  display: ;
+  display: flex;
+  text-align: left;
 }
 
 header {
@@ -46,6 +49,7 @@ header {
   position: relative;
   margin-left: 2%;
   box-shadow: 10px 10px;
+  border-radius: 12px;
 }
 
 /* Hide the images by default */
@@ -78,6 +82,7 @@ header {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #770493;
+  opacity: 0.2;
 }
 
 /* Caption text */
@@ -127,21 +132,58 @@ header {
   animation-duration: 1.5s;
 }
 
+.box-viagens{
+  display: inline-block;
+  width: 350px;
+  background-color: #fcae11;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 5px;
+  margin-left: 100px;
+  border-radius: 15px;
+}
+
+.box-viagens:hover {
+background: #fffb00;
+border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.slides-img {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.img:hover{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.legenda{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+
 #contato{
   background-color: #717171;
   color: #000000;
 }
 
+p{
+  margin-left: 15px;
+}
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
 
-#about {
-  height: 400px;
-  background-image: url("./assets/background-about.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  margin-bottom: 40px;
-}
+/* colocar um menu pra celulares, ao inves de tudo no banner */
