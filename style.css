@@ -11,12 +11,13 @@ body{
 
 #menu {
   height: 80px;
+  width: auto;
   background-color: #fcae11;
   text-decoration: none;
   display: flex;
   font-size: 20px;
-  margin-bottom: 50px;
-  position: ;
+  margin-bottom: 3rem;
+  position:static;
 }
 
 .logo-menu {
@@ -25,7 +26,7 @@ body{
 }
 
 .link-menu{
-  margin-top: 30px;
+  margin-top: 1.5%;
   margin-right: 5%;
   font-size: 20px;
   text-decoration: none;
@@ -35,23 +36,29 @@ body{
 }
 
 header {
+  display: block;
   font-size: 20px;
   color: white;
 }
 
+.teste {
+  
+}
+
 .title {
+  margin-bottom: 2%;
   margin-left: 4%;
-  margin-bottom: 1%;
   color: white;
 }
 
 .subtitle {
   font-size: 30px;
+  margin-bottom: 1%;
 }
 
 /* Slideshow container */
 .slideshow{
-  max-width: 750px;
+  max-width: 1000px;
   position: relative;
   margin-left: 2%;
   box-shadow: 10px 10px;
@@ -128,8 +135,8 @@ header {
 }
 
 #buttons-slide {
-  margin-left: 19%;
-  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-bottom: 4rem;
 }
 
 /* Fading animation */
@@ -140,12 +147,13 @@ header {
 
 .box-viagens{
   display: inline-block;
+  position: relative;
   width: 350px;
   background-color: #fcae11;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-  margin-right: 5px;
-  margin-left: 100px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 8rem;
   border-radius: 15px;
 }
 
