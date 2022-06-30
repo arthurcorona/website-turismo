@@ -17,7 +17,12 @@ body{
   display: flex;
   font-size: 20px;
   margin-bottom: 3rem;
-  position:static;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 900px;
+  z-index: 20;
 }
 
 .logo-menu {
@@ -138,11 +143,6 @@ header {
 
 .active, .dot:hover {
   background-color: #717171;
-}
-
-#buttons-slide {
-  margin-left: 20%;
-  margin-bottom: 4rem;
 }
 
 /* Fading animation */
