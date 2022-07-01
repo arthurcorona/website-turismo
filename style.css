@@ -16,7 +16,7 @@ body{
   text-decoration: none;
   display: flex;
   font-size: 20px;
-  margin-bottom: 3rem;
+  margin-bottom: 90px;
   position:fixed;
   top: 0px;
   left: 0px;
@@ -45,9 +45,38 @@ body{
   background-color: #8a5f14;
 }
 header {
+  margin-top: 2%;
   display: block;
   font-size: 20px;
   color: white;
+}
+
+.dropdown {
+  margin-top: 95px;
+  margin-left: 15px;
+}
+
+.menu-dropdown {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    position: relative;
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color: #fcae11;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .teste {
