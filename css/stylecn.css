@@ -32,7 +32,7 @@ body{
   margin-bottom: 3rem;
   margin-left: 4rem;
   color: white;
-  margin-top: 85px;
+  margin-top: 7rem;
 }
 
 .subtitle {
@@ -41,11 +41,6 @@ body{
   margin-left: 1rem;
   color: white;
 }
-  
-  #contato{
-    background-color: #717171;
-    color: #000000;
-  }
 
  .link{
     color: white;
@@ -56,4 +51,10 @@ li{
   list-style-type: square;
   font-size: 20px;
   margin-left: 2rem;
+}
+
+#contato{
+  background-color: #717171;
+  color: #000000;
+  margin-top: 2rem;
 }

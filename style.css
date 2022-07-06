@@ -99,6 +99,7 @@ header {
 /* Slideshow container */
 .slideshow{
   max-width: 1000px;
+  max-width: ;
   position: relative;
   margin-left: 2%;
   box-shadow: 10px 10px;
