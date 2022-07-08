@@ -6,7 +6,6 @@
 
 body{
   background-color: #770493;
-  font-family: 'Righteous', cursive;
 }
 
 #menu {
@@ -85,8 +84,7 @@ header {
 
 .title {
   font-size: 40px;
-  margin-bottom: 2%;
-  margin-left: 4%;
+  margin: 2%;
   color: white;
 }
 
@@ -236,3 +234,24 @@ p{
 }
 
 /* colocar um menu pra celulares, ao inves de tudo no banner */
+
+@media screen and (max-width: 990px) {
+
+  .box-viagens{
+    display: inline-block;
+    position: relative;
+    margin-left: ;
+    margin-right: auto;
+
+  }
+
+  .slideshow{
+    max-width: 90%;
+    position: relative;
+    margin-left: 2%;
+    box-shadow: 10px 10px;
+    border-radius: 12px;
+  }
+
+
+}
